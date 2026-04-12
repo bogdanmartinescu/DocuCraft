@@ -1,0 +1,28 @@
+{
+  "title": "My Project Docs",
+  "description": "Documentation for My Project",
+  "inputDir": "docs",
+  "outputDir": "site",
+  "theme": "default",
+  "baseUrl": "/",
+  "nav": [
+    { "label": "GitHub", "href": "https://github.com/your-org/your-repo", "external": true }
+  ],
+  "sidebar": [
+    {
+      "title": "Getting Started",
+      "items": [
+        { "label": "Introduction", "path": "index.html" },
+        { "label": "Installation", "path": "installation.html" },
+        { "label": "Quick Start", "path": "quickstart.html" }
+      ]
+    },
+    {
+      "title": "Guides",
+      "items": [
+        { "label": "Configuration", "path": "guides/configuration.html" },
+        { "label": "Themes", "path": "guides/themes.html" }
+      ]
+    }
+  ]
+}
