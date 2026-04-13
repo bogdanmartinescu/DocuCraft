@@ -20,11 +20,17 @@
     "baseUrl": ".",
     "paths": {
       "@core/*": ["src/core/*"],
+      "@providers/*": ["src/providers/*"],
+      "@memory/*": ["src/memory/*"],
+      "@skills/*": ["src/skills/*"],
       "@agents/*": ["src/agents/*"],
-      "@api/*": ["src/api/*"],
+      "@teams/*": ["src/teams/*"],
+      "@workflows/*": ["src/workflows/*"],
+      "@scheduler/*": ["src/scheduler/*"],
+      "@channels/*": ["src/channels/*"],
       "@storage/*": ["src/storage/*"],
-      "@signatures/*": ["src/signatures/*"],
-      "@types/*": ["src/types/*"]
+      "@api/*": ["src/api/*"],
+      "@gateway/*": ["src/gateway/*"]
     }
   },
   "include": ["src/**/*"],
